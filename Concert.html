@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
     <style>
       body {
-        background-color: rgba(0, 0, 0, 0.952);
+        background-color: rgba(1, 2, 7, 0.801);
       }
 
       .container {
@@ -20,8 +27,9 @@
           sans-serif;
         color: rgb(79, 187, 88);
         font-weight: 600;
+        font-size: x-large;
 
-        text-shadow: 0 0 10px #ff4500, 0 0 20px #ff4500;
+        text-shadow: 0 0 10px #d2f162, 0 0 20px #f77f10;
       }
 
       * {
@@ -29,16 +37,146 @@
         padding: 0;
         box-sizing: border-box;
       }
+      ul li {
+        display: inline-block;
+        margin-right: 75px;
+        text-align: center;
+      }
+      ul {
+        text-align: center;
+      }
+
+      a {
+        list-style-type: none;
+        text-decoration: none;
+      }
+      .symbols {
+        color: #fcc737;
+        font-size: 22px;
+        float: right;
+      }
+
+      i {
+        margin: 5px;
+        display: inline-block;
+      }
+
+      .linkinpark {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+      }
+      .contentofinside {
+        width: 100%;
+        position: relative;
+      }
+      h1 {
+        position: absolute;
+        top: 16%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: darkorchid;
+        text-align: center;
+      }
+
+      .information {
+        text-align: center;
+        background-color: transparent;
+        padding: 20px 0;
+      }
+
+      .information > div {
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+        margin: 0 10px;
+        color: white;
+      }
+
+      .part1 {
+        color: #f77f10;
+      }
+
+      .part2 {
+        color: cornflowerblue;
+      }
+
+      .part3 {
+        color: orangered;
+      }
+
+      .simgeler1,
+      .simgeler2,
+      .simgeler3 {
+        font-size: xx-large;
+        color: chartreuse;
+      }
     </style>
   </head>
-  <div class="container">
-    <div class="heater">
-      <div class="navbar">
-        <h1>HOME ARTISTC MUSIC CAMPING FESTIVALS ABOUT</h1>
-      </div>
-      <div class="symbols"></div>
-    </div>
-  </div>
+  <body>
+    <div class="container">
+      <div class="heater">
+        <div class="symbols">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-twitch"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-square-snapchat"></i>
+        </div>
 
-  <body></body>
+        <div class="navbar">
+          <ul>
+            <li><a href="">HOME </a></li>
+            <li><a href="">BANDS</a></li>
+            <li><a href="">MUSIC</a></li>
+            <li><a href="">CAMPING</a></li>
+            <li><a href="">FESTIVALS </a></li>
+            <li><a href="">MORE</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content">
+        <div class="contentofinside">
+          <img
+            class="linkinpark"
+            src="./Pictures/13346181_10154217714762930_6840266244990830329_o.jpg"
+            alt="Linkin Park"
+          />
+          <h1>"Electrifying Performance by AC/DC"</h1>
+        </div>
+        <div class="information">
+          <div class="part1">
+            <p>
+              AC/DC's concerts are renowned for their high-energy performances
+              and electrifying atmosphere. The band, formed in 1973, has been a
+              defining force in rock music for decades.
+            </p>
+            <div class="simgeler1">
+              <i class="fa-solid fa-guitar"></i>
+            </div>
+          </div>
+          <div class="part2">
+            <p>
+              Known for their hard-hitting tracks and powerful vocals, AC/DC has
+              a catalog of hits that never fails to get the crowd moving.
+            </p>
+
+            <div class="simgeler2">
+              <i class="fa-solid fa-tents"></i>
+            </div>
+          </div>
+          <div class="part3">
+            <p>
+              The band's relentless touring schedule has taken them to every
+              corner of the globe, playing to sold-out stadiums and arenas.
+            </p>
+
+            <div class="simgeler3"><i class="fa-solid fa-umbrella"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
