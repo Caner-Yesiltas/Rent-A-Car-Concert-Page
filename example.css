@@ -157,3 +157,19 @@ h5 {
   margin-top: 50px;
   display: inline-block;
 }
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+.insidecontainer {
+  margin-left: 610px;
+  margin-top: -100px;
+  position: absolute;
+}
+
+.insidecontainer2 {
+  position: absolute;
+  margin-top: -200px;
+}
