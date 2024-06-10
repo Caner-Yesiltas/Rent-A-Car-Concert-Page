@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 400px;
+  background-image: linear-gradient(
+      to right,
+      rgba(247, 243, 243, 0.3),
+      rgba(18, 17, 17, 0.7)
+    ),
+    url("https://www.enterprise.com/content/dam/ecom/utilitarian/common/exotics/exotics-hero-v2.jpg");
+  background-position: center left;
+}
+
+.inner {
+  padding: 4rem;
+}
+
+h2 {
+  padding: 1rem;
+  font-family: "Lilita One", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+/* ul{
+    list-style-image: url(./user-solid.svg);
+    list-style-position: inside;
+
+} */
+ul li {
+  background-color: gray;
+  margin: 5px;
+  padding: 5px;
+  border-left: 2px solid black;
+  border-radius: 0.6rem;
+  width: 200px;
+}
+
+ul li:first-child {
+  background-color: rgb(246, 180, 57);
+}
+
+input {
+  width: 150px;
+  height: 30px;
+  background-color: #ddd;
+  border: none;
+  margin: 1px;
+}
+
+input:last-child {
+  background-color: darkorange;
+}
+
+input:last-child:hover {
+  border-left: 10px solid rgb(147, 141, 141);
+  border-right: 10px solid rgb(147, 141, 141);
+  width: 160px;
+  height: 35px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li::before {
+  content: url(./user-solid.svg);
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+ul li:first-child::after {
+  content: url(./check-solid.svg);
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+input:focus {
+  background-color: brown;
+}
+
+.container2 {
+  height: 30rem;
+  width: 100%;
+  margin-top: -450px;
+  margin-left: 500px;
+  display: inline-block;
+}
+
+.cardcontainer1 {
+  display: inline-block;
+  height: 500px;
+  width: 500px;
+}
+
+.cardcontainer2 {
+  display: inline-block;
+  height: 40rem;
+  width: 40rem;
+}
+
+.cardcontainer3 {
+  display: inline-block;
+
+  height: 40rem;
+  width: 40rem;
+}
+
+.cardimage1 {
+  height: 20rem;
+  width: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cardimage2 {
+  height: 20rem;
+  width: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  margin-top: -280px;
+  margin-left: 70px;
+}
+
+.cardimage3 {
+  height: 20rem;
+  width: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: cover;
+  position: absolute;
+  margin-top: -260px;
+  margin-left: 75px;
+}
+
+h3,
+h4,
+h5 {
+  padding: 1rem;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  margin-top: 50px;
+  display: inline-block;
+}
